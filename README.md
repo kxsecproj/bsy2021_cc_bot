@@ -46,6 +46,12 @@ The codes works on Linux systems. The bots communicate with the C&C server by se
 
 The [bot.py](https://github.com/kxsecproj/bsy2021_cc_bot/blob/main/bot.py) and [git.py](https://github.com/kxsecproj/bsy2021_cc_bot/blob/main/git.py) files should be located in a separate folder on the infected computer. On the C&C server, [cc.py](https://github.com/kxsecproj/bsy2021_cc_bot/blob/main/cc.py) and [git.py](https://github.com/kxsecproj/bsy2021_cc_bot/blob/main/git.py) are located in a separate folder.
 
+Add to cc.py and bot.py token from google docs to _token_ variable.
+```sh
+if __name__ == '__main__':
+    token = ""
+```
+
 **infected computer**
 ```sh
 bot_dir $ ls

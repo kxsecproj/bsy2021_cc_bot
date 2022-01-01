@@ -35,9 +35,9 @@ The codes works on Linux systems. The bots communicate with the C&C server by se
 
 #### libraries requirements
 
-> os \n
-> time
-> random
+> os \
+> time \
+> random \
 > names (0.3.0)
 
 #### preparation before usage and start of the application

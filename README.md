@@ -29,6 +29,8 @@ The python3 bot controlled via [gist.github](https://gist.github.com/kxsecproj/d
 | copy file _/Users/myuser/file.txt_ from bot Alice123 | Alice123 4 /Users/myuser/file.txt |
 | get current user's _uid_ from bot Alice123           | Alice123 5                        |
 
+For unknown reasons, it sometimes took up to 15 seconds and sometimes a minute to execute the commands during testing. Be patient when using.
+
 ## Tech
 
 The codes works on Linux systems. The bots communicate with the C&C server by sending images. In these pictures are hidden messages that exchange information (storage of information as in BSY: bonus3). C&C is controlled via the terminal. The bots inform about their existence by entering their name in the PlayerList.txt file, where their name and fictitious rank are located (the goal is to simulate forwarding the database to an online game). Detailed technical information about the operation of the program can be found in the code comments.

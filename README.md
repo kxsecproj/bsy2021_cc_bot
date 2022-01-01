@@ -57,7 +57,7 @@ bot_dir $ python3 bot.py
 ```sh
 cc_dir $ ls
 cc.py git.py
-bot_dir $ python3 cc.py
+cc_dir $ python3 cc.py
 ```
 
 When the server starts, a table of commands appears (it can also be called with the _help_ command). Keep in mind that commands can be entered into the C&C server terminal only when prompted with the message **"Paste command from the table:"**. Failure to do so may cause the application to crash and damage the [gist.github](https://gist.github.com/kxsecproj/dcf75fc08e5970c9e103a885d95fa8e6) repository. Always close the application by entering the terminate password in the C&C server terminal (this is the only way to kill the server and bots and delete temporary files from the repository).

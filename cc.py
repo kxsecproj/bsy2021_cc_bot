@@ -173,5 +173,5 @@ def main(git_dir, token, url):
 
 if __name__ == '__main__':
     main("dcf75fc08e5970c9e103a885d95fa8e6",
-         "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",
+         "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",
          "https://gist.github.com/dcf75fc08e5970c9e103a885d95fa8e6.git")
